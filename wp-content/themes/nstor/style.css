@@ -1,0 +1,629 @@
+/**
+ * Theme Name: Nstor
+ * Theme URI: https://
+ * Description: The WordPress theme for Nstor.
+ * Version: 1.0.0
+ * Author: Jonas Halléhn
+ * Author URI: https://turessonochhallehn.nu
+ */
+
+/* First we start with a reset CSS to make all browsers act the same from the start */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+/* Colours:
+#FDFBFB
+#000000
+#F5F8F4
+#00C85E
+#49D48A
+#93E4B8
+*/
+
+
+/* @font-face {
+  font-family: 'Roboto Mono';
+  src: url('robotomonoregular.ttf') format('truetype');
+
+} */
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #FDFBFB;
+  font-size: 14pt;
+  font-family: 'Rubik';
+  color: black;
+}
+
+/* HEADER */
+
+.header {
+  /* -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header {
+  width: 900px;
+  height:
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header img {
+  width: 100%;
+}
+
+.container {
+  width: 900px !important; 
+}
+
+.background {
+  /* width: 900px;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0; */
+  background-color: #F5F8F4;
+}
+
+ .content {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content {
+  width: 900px;
+}
+
+.bottle1 {
+  width: 380px;
+  height: 450px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: color: #F5F8F4;
+
+}
+
+.bottle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottle1 .bottle {
+  width: 360px;
+  height: 450px;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ .gif1 {
+  width: 380px;
+  height: 450px;
+  margin-top: 10px;
+  margin-right: 60px;
+
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+}
+
+ .gif1 .gif {
+  width: 450px;
+  height: 450px;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.welcome {
+  background: #00C85E;
+  width: 380px;
+  height: 225px;
+  margin-left: 60px;
+  margin-top: 10px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+
+}
+
+.welcome h1 {
+  color: #FDFBFB;
+  width: 100px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #FDFBFB;
+  text-decoration: none;
+
+}
+
+.welcome > h1:hover {
+  color: #FDFBFB;
+}
+
+.welcome > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FDFBFB;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.welcome > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.welcome p {
+  color: #FDFBFB;
+  font-size: 14pt;
+  line-height: 110%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.welcome:hover {
+  background: #49D48A;
+}
+
+.news {
+}
+
+.news {
+  width: 380px;
+  height: 225px;
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-left: 10px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+
+}
+
+.news h1 {
+  color: #000000;
+  width: 68px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.news > h1:hover {
+  color: #000;
+}
+
+.news > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.news > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.news p {
+  color: #000000;
+  font-size: 14pt;
+  line-height: 110%;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.news:hover {
+  background: #93E4B8;
+}
+
+.instagram {
+  width: 190px;
+  height: 225px;
+  margin-left: 60px;
+  margin-top: 10px;
+
+}
+
+.instagram h1 {
+  color: #000000;
+  width: 88px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.instagram > h1:hover {
+  color: #000;
+}
+
+.instagram > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.instagram > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.instagram p {
+  color: #000000;
+  font-size: 16pt;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+
+.concept {
+  width: 190px;
+  height: 225px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+}
+
+
+.concept p {
+  color: #00C85E;
+  font-size: 16pt;
+  line-height: 110%;
+  text-align: center;
+}
+
+.concept:hover {
+  background: #93E4B8;
+}
+
+.facebook {
+  background: #00C85E;
+  width: 380px;
+  height: 225px;
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-left: 10px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook .face {
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45px;
+  height: 100px;
+}
+
+.facebook h1 {
+  color: #FDFBFB;
+  width: 85px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #FDFBFB;
+  text-decoration: none;
+}
+
+.facebook > h1:hover {
+  color: #FDFBFB;
+}
+
+.facebook > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FDFBFB;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.facebook > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.facebook p {
+  color: #FDFBFB;
+  font-size: 16pt;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.facebook:hover {
+  background: #93E4B8;
+}
+
+.assortment {
+  width: 380px;
+  height: 450px;
+  margin-left: 60px;
+  margin-top: 10px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+}
+
+.assortment h1 {
+  color: #000000;
+  width: 126px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.assortment > h1:hover {
+  color: #000;
+}
+
+.assortment > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.assortment > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.assortment p {
+  color: #000000;
+  font-size: 16pt;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.assortment .bottle {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 450px;
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.assortment:hover {
+  background: #93E4B8;
+}
+
+.green {
+  width: 380px;
+  height: 450px;
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #00C85E;
+  width: 380px;
+  height: 225px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+}
+
+.story h1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #FDFBFB;
+  font-size: 12pt;
+  color: #FDFBFB;
+  text-decoration: none;
+}
+
+.story > h1:hover {
+  color: #FDFBFB;
+}
+
+.story > h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FDFBFB;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.story > h1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.story p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.story p {
+  color: #FDFBFB;
+  font-size: 16pt;
+  line-height: 110%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.story:hover {
+  background: #93E4B8;
+}
+
+.investor {
+  background: #F5F8F4;
+  width: 380px;
+  height: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
+}
+
+.investor p {
+  color: #00C85E;
+  font-size: 16pt;
+  text-align: center;
+}
+
+
+.investor h1 {
+  color: #FDFBFB;
+  font-size: 14pt;
+}
+
+.kapsyl {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.story .kapsyl {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  height: 25px;
+  width: 25px;
+  /*margin-right: 10px;*/
+  /*margin-left: 340px;*/
+
+}
+
+.investor:hover {
+  background: #93E4B8;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  line-height: 110%;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+}
+
+.footer .right_footer {
+  text-align: right;
+  margin-right: 60px;
+}
