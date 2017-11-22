@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row header">
     <nav class="nnavbar sticky-top navbar navbar-expand-lg navbar-light bg-none">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="#">NStor</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,18 +25,20 @@
             <a class="nav-link" href="#">Hem <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#"></a>
-              <a class="dropdown-item" href="#"></a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"></a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"></a>
-          </li>
+            <a class="nav-link" href="#">Nyheter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Konceptdryck</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sortiment</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Vår berättelse</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Investor Relations</a>
+</li>
         </ul>
       </div>
     </div>
